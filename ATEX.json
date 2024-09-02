@@ -1,0 +1,136 @@
+{   "id":"ID00001",
+    "version":"0.1",
+    "techAssessmentName":"ATEX",
+    "status": "review",
+    "observationParameters":[
+
+        {
+            "id": "uuid4-@#@#@#",
+            "category": "Observation Information",
+            "question": "Date",
+            "type": "Text"
+        },{
+            "id": "q2",
+            "category": "Asset Information",
+            "question": "Asset Location",
+            "type": "text"
+        },
+        {
+            "id": "q3",
+            "category": "Asset Information",
+            "question": "Tag Number",
+            "type": "text"
+        }
+    ],
+    "assessments":[
+    {
+        "id": "q4",
+        "category": "Asset Information",
+        "question": "Asset Category",
+        "type": "dropdown",
+        "options": ["Zone 0", "Zone 1", "Zone 2", "Non-ATEX"]
+    },
+    {
+        "id": "q5",
+        "category": "ATEX Certification",
+        "question": "Is the asset ATEX certified?",
+        "type": "radio",
+        "options": ["Yes", "No"]
+        
+    },
+    {
+        "id": "q6",
+        "category": "ATEX Certification",
+        "question": "ATEX Certification Number",
+        "type": "text"
+    },
+    {
+        "id": "q7",
+        "category": "ATEX Certification",
+        "question": "Certification Expiry Date",
+        "type": "text"
+    },
+    {
+        "id": "q8",
+        "category": "ATEX Certification",
+        "question": "Has the ATEX certificate been reviewed within the last 12 months?",
+        "type": "radio",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": "q9",
+        "category": "Maintenance & Inspection",
+        "question": "Last maintenance date",
+        "type": "text"
+    },
+    {
+        "id": "q10",
+        "category": "Maintenance & Inspection",
+        "question": "Frequency of inspections (in months)",
+        "type": "range",
+        "min": 1,
+        "max": 36
+    },
+    {
+        "id": "q11",
+        "category": "Maintenance & Inspection",
+        "question": "Are there records of previous inspections available?",
+        "type": "radio",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": "q12",
+        "category": "Safety Compliance",
+        "question": "Is the asset compliant with the ATEX safety guidelines?",
+        "type": "radio",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": "q13",
+        "category": "Safety Compliance",
+        "question": "Have any safety incidents related to ATEX occurred in the last year?",
+        "type": "radio",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": "q14",
+        "category": "Safety Compliance",
+        "question": "Number of safety incidents reported in the last 12 months",
+        "type": "text"
+    },
+    {
+        "id": "q15",
+        "category": "Risk Assessment",
+        "question": "Current risk level of the asset",
+        "type": "dropdown",
+        "options": ["Low", "Medium", "High", "Critical"]
+    },
+    {
+        "id": "q16",
+        "category": "Risk Assessment",
+        "question": "Has a risk assessment been conducted in the last 6 months?",
+        "type": "radio",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": "q17",
+        "category": "Risk Assessment",
+        "question": "Risk assessment reference number",
+        "type": "text"
+    },
+    {
+        "id": "q18",
+        "category": "Risk Assessment",
+        "question": "Risk mitigation actions taken (if any)",
+        "type": "checkbox",
+        "options": ["Increased inspection frequency", "Upgraded equipment", "Safety training", "Other"]
+    },
+    {
+        "id": "q18",
+        "category": "Tag",
+        "question": "Tag ??",
+        "type": "array",
+        "options": ["Increased inspection frequency", "Upgraded equipment", "Safety training", "Other"]
+    
+    }
+]}

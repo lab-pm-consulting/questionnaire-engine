@@ -1,0 +1,22 @@
+{
+    "observation_id": "21232ada-b28b-45ff-a000-b5a827a14940",
+    "date_of_observation": "2024-08-15 16:15:02",
+    "answers": {
+        "q1": {
+            "question": "What is your name?",
+            "answer": "Alex"
+        },
+        "q2": {
+            "question": "What is your age?",
+            "answer": "32"
+        },
+        "q3": {
+            "question": "Choose your favorite programming language",
+            "answer": "C++"
+        },
+        "q4": {
+            "question": "How experienced are you with Python?",
+            "answer": 3
+        }
+    }
+}
